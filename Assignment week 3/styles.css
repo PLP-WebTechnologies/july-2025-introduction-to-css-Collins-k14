@@ -1,0 +1,77 @@
+/* ===== General Reset ===== */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #F0F0F0; /* Light gray background */
+  color: #333;
+}
+
+/* ===== Header ===== */
+.header {
+  background-color: #0e1821; /* blue-gray */
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+/* ===== Navigation ===== */
+.navbar {
+  text-align: center;
+  background: #00796B; /* Teal */
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Intro Section ===== */
+.intro {
+  background: white;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+}
+
+/* ===== Card (Box Model Example) ===== */
+.card {
+  background: #E3F2FD; /* Light blue */
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #2196F3; /* Bright blue border */
+  border-radius: 8px;
+}
+
+/* Button */
+.btn {
+  background: #2196F3; /* Sky blue */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background: #1976D2; /* Darker blue */
+}
+
+/* ===== Footer ===== */
+.footer {
+  background: #001F3F; /* Deep navy */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
